@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dummy Rentals</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="alert alert-success alert-dismissible fade" id="success" role="alert">
+   <!--Alert Message Here -->
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+
+  <div class="container">
+    <h1>Dummy Rentals Desk</h1>
+    <form class="row g-3">
+      <div class="mb-3">
+        <label for="Name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter Your Name" />
+        <small id="nameinvalid" class="form-text text-muted invalid-feeedback">
+          <!-- Name error -->
+        </small>
+      </div>
+
+      <div class="mb-3">
+        <label for="Phone" class="form-label">Phone Number</label>
+        <input type="text" class="form-control" id="phone" placeholder="Enter Phone Number" />
+        <small id="phoneinvalid" class="form-text text-muted invalid-feeedback">
+          <!-- Phone error  -->
+        </small>
+      </div>
+      <div class="mb-3">
+        <label for="Email" class="form-label">Email address</label>
+        <input type="text" class="form-control" id="email" placeholder="name@example.com" />
+        <small id="emailinvalid" class="form-text text-muted invalid-feeedback">
+          <!-- Email error -->
+        </small>
+      </div>
+
+      <div class="dropdown">
+        <label for="Cars" class="form-label">Select your cars</label>
+        <select class="form-select" aria-label="Default select example" id="cars">
+          <option selected>Cars</option>
+          <option>Swift</option>
+          <option>Alto 800</option>
+          <option>Mercedes</option>
+          <option>Rolls Royce</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="Address" class="form-label">Address</label>
+        <textarea class="form-control" id="address" rows="3"></textarea>
+      </div>
+      <button class="btn btn-primary col-auto" id="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
