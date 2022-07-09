@@ -38,3 +38,7 @@ This website implements API concepts. The API which was is being used to fetch n
   The Name, Phone, Email input fields use Regular Expression to match whether the input given matched the input required for the field.
 
   The objective of the project was to use Regular Expression in Day To Day objects. 
+
+# Chrome Extension
+
+This extension provides you with randomly fetched quotes from the famous American rapper Kanye West. Every time you click on the extension's icon it will serve you with a random quote from Kanye west.
