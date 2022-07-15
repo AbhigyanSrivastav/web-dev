@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+/* font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.nav{
+    /* border: 2px solid red; */
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    height: 60px;
+    align-items: center;
+    background-color: black;
+    color: antiquewhite;
+}
+.nav ul li{
+    padding: 0px 12px;
+}
+.brand{  
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 550;
+
+} 
+.brand img{   
+    margin: 0px 5px;
+    width: 45px;
+}
+
+.container{
+    min-height: 75vh;
+    background: #000;
+    color: wheat;
+    font-family: 'Varela Round', sans-serif; 
+    display: flex;
+    width: 70%;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 20px;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.songItemContainer{
+    margin-top: 70px;
+}
+
+.songItem{
+    /* border: 2px solid red; */
+    display: flex;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px auto;
+    font-size: 12px;
+    border-radius: 24px;
+}
+
+.songItem img{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+   
+}
+
+.songItem .timeStamp{
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+.bottom{
+    background-color: black;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    height:90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#progressBar{
+    width: 80vw;
+
+}
+
+.icons i{
+    margin-top: 5px;
+    cursor: pointer;
+    margin-right:30px ;
+}
+
+.songInfo img{
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+.songInfo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10vw;
+    margin-top: 20px;
+}
+
