@@ -42,3 +42,11 @@ This website implements API concepts. The API which was is being used to fetch n
 # Chrome Extension
 
 This extension provides you with randomly fetched quotes from the famous American rapper Kanye West. Every time you click on the extension's icon it will serve you with a random quote from Kanye west.
+
+# Spotify Clone
+
+Created a spotify clone to better understand the play,pause,timeupdate etc. events of Javascript.
+
+# Drums
+
+Created a a website which detects and responds with musical sounds corresponding to the pressed key from the keyboard with the help of keyboard events. 
